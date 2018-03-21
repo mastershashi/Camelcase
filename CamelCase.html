@@ -1,0 +1,17 @@
+<Html>
+<body>
+<script>
+
+function camelCase(value) {
+	    return value.replace(/\b(\w)(\w*)?\b/g, function() {
+	        return arguments[1].toUpperCase() + arguments[2].toLowerCase();
+	    });
+}
+
+alert(camelCase("MY NAME IS SHASHI "))
+	//output:  My Name Is Shashi
+	
+</script>
+</body>
+</Html>
+	
